@@ -66,7 +66,7 @@ class App extends React.Component {
           width: 250,
           height: 300,
         }}
-        operations={['to right', 'to left']}
+        operations={['to right', 'to left' , 'a']}
         targetKeys={this.state.targetKeys}
         onChange={this.handleChange}
         render={item => `${item.title}-${item.description}`}
